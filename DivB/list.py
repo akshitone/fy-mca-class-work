@@ -63,3 +63,11 @@ print(numbers.index(100))
 
 numbers.sort()
 print(numbers)
+
+
+students_height = [5, 6.2, 4.5, 5.2, 6, 5.11, 6.1, 5.9, 4.11, 5.7]
+anuradhas_requirement = 3
+
+students_height.sort()
+
+print(students_height[-anuradhas_requirement])
