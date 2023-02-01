@@ -2,17 +2,17 @@ print("How you doing?")
 
 anime = ["naruto", "one piece", "jujutsu kaisen", "shinchan"]
 
-# if "naruto" not in anime:
-#     print("Naruto is in anime")
-# else:
-#     print("Naruto is not in anime")
+if "naruto" not in anime:
+    print("Naruto is in anime")
+else:
+    print("Naruto is not in anime")
 
-# is_there = False
+is_there = False
 
-# for series in anime:
-#     if series == "tokyo revengers":
-#         is_there = True
-#         break
+for series in anime:
+    if series == "tokyo revengers":
+        is_there = True
+        break
 
 
 # if is_there:

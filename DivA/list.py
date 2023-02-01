@@ -53,17 +53,50 @@ last_element_index = len(numbers)-1
 # print("After extend:", numbers)
 
 # insert
-numbers.insert(2, 500)
-print(numbers)
+# numbers.insert(2, 500)
+# print(numbers)
 
 # multiply elements
 zeros = [0]*10
-print(zeros)
+# print(zeros)
+
+# numbers.reverse()
+# print(numbers)
 
 # copy list
+# print(numbers)
+copied_numbers = numbers.copy()
+
+# print("Copied numbers:", copied_numbers)
+# print("Original numbers:", numbers)
+
+numbers.append(1000)
+# print("Original numbers:", numbers)
+# print("Copied numbers:", copied_numbers)
 
 # append two list
+# new_numbers = numbers + copied_numbers
+numbers.extend(copied_numbers)
+# print("New numbers:", numbers)
 
 # one liner
+square_list = list()
+# square_list = []
+
+for number in range(1, 10):
+    result = number*number
+    square_list.append(result)
+
+print(square_list)
+
+mutliply_by_2 = [number*number for number in range(1, 10)]
+print(mutliply_by_2)
+
 
 # slicing
+
+
+# for value in enumerate(numbers):
+#     print(value)
+# if index == 3:
+#     print(number)
