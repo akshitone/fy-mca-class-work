@@ -20,8 +20,12 @@ to the right where nothing is left."""
 
 web_series = ["GOT", "HIMYM", "Suits", "Friends", "You", "Elite"]
 
+reversed_web_series = list()
 print(web_series[2:5])
-print(web_series[3:0:-1])
+for series in web_series[3:0:-1]:
+    reversed_web_series.append(series[::-1])
+
+print(reversed_web_series)
 
 # indexing
 fav_quote = "That's what she said"
