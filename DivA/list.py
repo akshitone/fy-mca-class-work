@@ -57,7 +57,7 @@ last_element_index = len(numbers)-1
 # print(numbers)
 
 # multiply elements
-zeros = [0]*10
+# zeros = [0]*10
 # print(zeros)
 
 # numbers.reverse()
