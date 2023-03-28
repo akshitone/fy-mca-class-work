@@ -35,8 +35,44 @@ with open('test.txt', 'r') as test_file:
     # for user in test_data:
     #     print(user.split(','))
 
-    test_data = test_file.readline()
-    print(test_data, end="")
+    # print(test_file.closed)
+    # test_data = test_file.readline()
+    # print(test_data, end="")
 
-    test_data = test_file.readline()
-    print(test_data, end="")
+    # test_file.seek(0)
+
+    # test_data = test_file.readline()
+    # print(test_data, end="")
+
+    # test_data = test_file.read(10)
+    # print(test_data, end="")
+
+    # test_file.seek(0)
+
+    # test_data = test_file.read(10)
+    # print(test_data)
+    pass
+
+# print(test_file.closed)
+
+
+with open('test.txt', 'r') as read_test_file:  # open file in read mode
+    with open('test_copy.txt', 'w') as write_test_file:  # open file in write mode
+        test_data = read_test_file.read()  # read file and store it in test_data
+        write_test_file.write(test_data)
+
+
+# 1 2 3 4 5 6 7 8 9 10 - 10000 lines
+
+# 4 6 8
+
+
+# 101,akshit,10000,
+# 102,viral,20000,
+# 103,rajan,30000,
+
+# rollno: 101
+# name: akshit
+# salary: 10000
+
+# rollno: 102
